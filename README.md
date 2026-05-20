@@ -49,13 +49,10 @@ with open("beats.json", "w") as f:
 
 
 Note: save_bp.py expects a folder structure like this:
-
+```
 project/
-
 ├── beat/
-
 │   └── beat_point.py
-
 ├── save_bp.py
-
 └── music.mp3
+```
