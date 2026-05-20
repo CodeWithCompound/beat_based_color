@@ -35,7 +35,7 @@ print("First 10 beat frames:", beat_frames[:10])
 beat_times = librosa.frames_to_time(beat_frames, sr=rate)
 print("First 5 beat times (seconds):", beat_times[:5])
 ```
-# 2. Export beats to JSON (`save_bp.py`)
+### 2. Export beats to JSON (`save_bp.py`)
 
 ```python
 import json
